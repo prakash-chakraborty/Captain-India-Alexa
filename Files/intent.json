@@ -1,0 +1,178 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Language",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Hindi",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bengali",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Urdu",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Telugu",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kannada",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Marathi",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Oriya",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tamil",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Malayalam",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gujarati",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kashmiri",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Punjabi",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nepali",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Assamese",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Manipuri",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Konkani",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AnswerIntent",
+        "samples": [
+          "{StateName}",
+          "{Capital}",
+          "{StateFormed}",
+          "{LanguageSpoken}"
+        ],
+        "slots": [
+          {
+            "name": "StateName",
+            "type": "AMAZON.Region"
+          },
+          {
+            "name": "StateFormed",
+            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+          },
+          {
+            "name": "LanguageSpoken",
+            "type": "Language"
+          },
+          {
+            "name": "Capital",
+            "type": "AMAZON.City"
+          }
+        ]
+      },
+      {
+        "name": "QuizIntent",
+        "samples": [
+          "start a quiz",
+          "start a quiz game",
+          "and start a quiz",
+          "and quiz me",
+          "for a quiz",
+          "a quiz",
+          "play a quiz"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "captain india"
+  }
+}
