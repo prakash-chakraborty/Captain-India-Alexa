@@ -8,13 +8,13 @@ If this really interest you, kindly access the app here :point_right: [Here](htt
 
 ## How to use the App
 
-_Alexa, Open Captain India_
+> _Alexa, Open Captain India_
 
 It will ask to start a quiz.
 
-_Start a Quiz_
+> _Start a Quiz_
 
-## Getting started
+## Interested in viewing code. Start Now...
 
 * Copy the [code](Files/) to get started on your alexa journey!
 
@@ -24,7 +24,7 @@ _Start a Quiz_
 
 * Learn more about Alexa Skills [here](https://developer.amazon.com/es/alexa-skills-kit/learn)
 
-### Dependencies
+### Deployment & Implementation of App
 
 :one: Create a new AWS lambda project and put the file ```lambda.js``` in the project.
 
@@ -32,6 +32,8 @@ _Start a Quiz_
 
 :three: Now you would be up and running.
 
-### Start Testing your knowledge
+### Start Testing your knowledge by using App 
+
+### Additional Resources
 
 :information_source: Make sure to follow [Amazon Tutorials](https://developer.amazon.com/es/alexa-skills-kit/alexa-skill-quick-start-tutorial-nodejs) for a detailed understanding of Alexa Skills.
