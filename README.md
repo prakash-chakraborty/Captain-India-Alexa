@@ -6,6 +6,8 @@ Its an quiz game to check you knowledge about the Indian States.
 
 Access :point_right: [Here](https://www.amazon.in/Captain-India-States-Quiz/dp/B077NMGT4R/) and enjoy :smiley:
 
+Note: This might (most probably) be outdated. If you have some time please update the steps.
+
 ## Getting started
 
 Copy the [code](Files/) to get started on your alexa journey!
